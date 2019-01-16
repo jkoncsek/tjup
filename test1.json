@@ -1,0 +1,112 @@
+{
+    "data": [
+        {
+            "id": "demoDataTestTrade1",
+            "book": {
+                "id": "BOOK_A",
+                "bookName": "BOOK A"
+            },
+            "currencyTypeDE": "dct009::EUR",
+            "contractDate": "2018-10-02",
+            "amount": 10,
+            "deliveryPrice": null,
+            "strike": 21.1234,
+            "expiryDate": "2019-07-02",
+            "description": "testNote",
+            "positionTypeDE": "dct010::Short",
+            "tradeTypeDE": "dct011::OptionTrade",
+            "contractTypeDE": "dct012::Put",
+            "assetTypeDE": "dct013::NaturalGas",
+            "assignedTrader": {
+                "username": "t",
+                "fullName": "Trader Trader",
+                "email": "testt2@test.hu"
+            },
+            "task": {
+                "taskId": "demoTask1",
+                "statusDE": "dct015::WFQ",
+                "assignee": {
+                    "username": "t",
+                    "fullName": "Trader Trader",
+                    "email": "testt2@test.hu"
+                },
+                "version": 0
+            },
+            "externalId": null,
+            "optionPrice": 20.1234,
+            "createdOn": "2019-01-15T07:55:17.661+0000",
+            "createdBy": {
+                "username": "t",
+                "fullName": "Trader Trader",
+                "email": "testt2@test.hu"
+            },
+            "modifiedOn": "2019-01-15T07:55:17.661+0000",
+            "modifiedBy": {
+                "username": "t",
+                "fullName": "Trader Trader",
+                "email": "testt2@test.hu"
+            },
+            "version": 0
+        },
+        {
+            "id": "demoDataTestTrade10",
+            "book": {
+                "id": "BOOK_B",
+                "bookName": "BOOK B"
+            },
+            "currencyTypeDE": "dct009::EUR",
+            "contractDate": "2018-10-11",
+            "amount": 100,
+            "deliveryPrice": null,
+            "strike": 24.1234,
+            "expiryDate": "2019-09-11",
+            "description": "testNote",
+            "positionTypeDE": "dct010::Long",
+            "tradeTypeDE": "dct011::OptionTrade",
+            "contractTypeDE": "dct012::Straddle",
+            "assetTypeDE": "dct013::NaturalGas",
+            "assignedTrader": {
+                "username": "t",
+                "fullName": "Trader Trader",
+                "email": "testt2@test.hu"
+            },
+            "task": {
+                "taskId": "demoTask10",
+                "statusDE": "dct015::Discarded",
+                "assignee": {
+                    "username": "t",
+                    "fullName": "Trader Trader",
+                    "email": "testt2@test.hu"
+                },
+                "version": 0
+            },
+            "externalId": null,
+            "optionPrice": 23.1234,
+            "createdOn": "2019-01-15T07:55:17.661+0000",
+            "createdBy": {
+                "username": "t",
+                "fullName": "Trader Trader",
+                "email": "testt2@test.hu"
+            },
+            "modifiedOn": "2019-01-15T07:55:17.661+0000",
+            "modifiedBy": {
+                "username": "t",
+                "fullName": "Trader Trader",
+                "email": "testt2@test.hu"
+            },
+            "version": 0
+        }
+    ],
+    "pageMetadata": {
+        "size": 2,
+        "totalElements": 21,
+        "totalPages": 11,
+        "number": 0,
+        "orders": [
+            {
+                "orderBy": "id",
+                "direction": "asc"
+            }
+        ]
+    }
+}
